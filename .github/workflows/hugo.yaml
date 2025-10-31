@@ -77,10 +77,14 @@ jobs:
           key: hugo-${{ github.run_id }}
           restore-keys: hugo-
       - name: Build the site
+        env:
+          HUGO_ENVIRONMENT: production
+          HUGO_ENV: production
         run: |
           hugo \
             --gc \
             --minify \
+            --environment production \
             --baseURL "${{ steps.pages.outputs.base_url }}/" \
             --cacheDir "${{ runner.temp }}/hugo_cache"
       - name: Cache save

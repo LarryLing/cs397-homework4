@@ -1,4 +1,4 @@
-baseURL = 'https://larryling.github.io/'
+baseURL = 'https://larryling.github.io/cs397-homework4/'
 languageCode = 'en-us'
 title = 'Larry Ling'
 theme = 'PaperMod'
@@ -24,6 +24,7 @@ theme = 'PaperMod'
     weight = 4
 
 [params]
+  env = "production"
   defaultTheme = "auto"
   disableNavbarTitle = true
 
