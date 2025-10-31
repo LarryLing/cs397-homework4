@@ -4,7 +4,7 @@ draft = true
 title = 'Larry Ling'
 +++
 
-![Portrait](/images/profile.jpeg)
+![Portrait](images/profile.jpeg)
 
 # Larry W. Ling
 
