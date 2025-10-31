@@ -2,6 +2,7 @@ baseURL = 'https://larryling.github.io/cs397-homework4/'
 languageCode = 'en-us'
 title = 'Larry Ling'
 theme = 'PaperMod'
+canonifyURLs = true
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
